@@ -78,6 +78,14 @@
                                 {
                                     "Effect": "Allow",
                                     "Action": [
+                                        "waf-regional:ListWebACLs",
+                                        "cognito-idp:ListUserPools",
+                                        "tag:getResources",
+                                        "iam:GetRole",
+                                        "iam:ListAttachedRolePolicies",
+                                        "iam:GetRolePolicy",
+                                        "cloudformation:DescribeStackResources",
+                                        "iam:ListRolePolicies",
                                         "cloudwatch:GetMetricStatistics",
                                         "cloudwatch:ListMetrics"
                                     ],
